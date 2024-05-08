@@ -15,6 +15,7 @@ video_state = tk.BooleanVar()
 video_state.set(False)
 
 cap = cv2.VideoCapture('los_angeles.mp4')
+#cap = cv2.VideoCapture(0)
 cap.set(3, 1280)
 cap.set(4, 700)
 
